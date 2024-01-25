@@ -52,7 +52,7 @@ public class ParkingmeterController {
 
 
 
-    @GetMapping("/time")
+    @GetMapping("/timee")
     public List<Parkimeter> findParkByDate(@RequestParam LocalDateTime initialTime,@RequestParam LocalDateTime finalTime) {
         return parkingmeterService.findParkByDate(initialTime,finalTime);
     }
