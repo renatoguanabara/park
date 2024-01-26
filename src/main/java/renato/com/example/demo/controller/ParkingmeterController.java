@@ -37,7 +37,7 @@ public class ParkingmeterController {
 
 
 
-    @PostMapping("/hora")
+    @PostMapping("/horaa")
     public Parkimeter comprarTempo(@RequestBody Parkimeter parkimeter){
         return this.parkingmeterService.comprarTempo(parkimeter);
     }
